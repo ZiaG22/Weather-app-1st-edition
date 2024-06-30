@@ -12,33 +12,34 @@ main {
 }
 h1 {
   color: rgb(83, 111, 124);
-  font-size: 60px;
+  font-size: 70px;
   margin-bottom: 0;
   position: relative;
   left: 20px;
 }
+
 footer {
   color: grey;
 }
-
+strong {
+    color:grey;
+}
 .temp-degree {
   color: #404d58;
-  font-size: 130px;
-  margin-top: -40px;
+  font-size: 100px;
+  margin-top: -30px;
   position: relative;
   left: 20px;
 }
 .emoji {
   position: relative;
-  top: 40px;
-  left: 140px;
-
-  font-size: 200px;
+  top: 20px;
+  left: 160px;
+  font-size: 140px;
 }
 .temp-detais {
   font-size: 20px;
-  color: #21dce9b7;
-
+  color:#84c9be;
   position: relative;
   top: -30px;
   left: 30px;
