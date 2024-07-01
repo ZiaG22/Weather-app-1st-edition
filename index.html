@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="weather-app">
@@ -30,7 +31,9 @@
       <main>
         <div>
           <h1 class="temprature-city">Tokyo</h1>
-          <div class="temp-degree">25°<span class="emoji">🌧</span></div>
+          <span class="temp-degree" id="temperature"></span>
+          <span class="temp-unit">°C</span>
+          <span class="emoji">🌧</span>
 
           <p class="temp-detais">
             <span id="time">Monday 11:33</span>,<span id="description">Rainy</span>

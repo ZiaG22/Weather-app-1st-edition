@@ -31,6 +31,14 @@ strong {
   position: relative;
   left: 20px;
 }
+.temp-unit {
+    color: #404d58;
+  font-size: 60px;
+  margin-top: -30px;
+  position: relative;
+  left: 20px;
+
+}
 .emoji {
   position: relative;
   top: 20px;
