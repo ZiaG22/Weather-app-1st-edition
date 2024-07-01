@@ -15,11 +15,12 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
+        <form id="search-form">
           <input
             type="search"
             placeholder="Look up a city..."
             class="search-form-input"
+            id="search-form-input"
             required
           />
           <input type="submit" value="search" class="search-form-button" />
@@ -32,7 +33,7 @@
           <div class="temp-degree">25°<span class="emoji">🌧</span></div>
 
           <p class="temp-detais">
-            <span id="current-time">Monday 11:33</span>,<span id="description">Rainy</span>
+            <span id="time">Monday 11:33</span>,<span id="description">Rainy</span>
             <br />
             Humidity:<strong id="humidity"> 54%,</strong>Wind:<strong id="wind-speed">  12 km/h</strong>
             
@@ -61,5 +62,6 @@
         >
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
