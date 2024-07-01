@@ -13,7 +13,8 @@ main {
 h1 {
   color: rgb(83, 111, 124);
   font-size: 70px;
-  margin-bottom: 0;
+  margin-bottom: -10px;
+ 
   position: relative;
   left: 20px;
 }
@@ -26,24 +27,26 @@ strong {
 }
 .temp-degree {
   color: #404d58;
-  font-size: 100px;
+  font-size: 80px;
   margin-top: -30px;
   position: relative;
   left: 20px;
 }
 .temp-unit {
     color: #404d58;
-  font-size: 60px;
+  font-size: 40px;
   margin-top: -30px;
   position: relative;
   left: 20px;
 
 }
-.emoji {
+.weather-icon {
   position: relative;
   top: 20px;
-  left: 160px;
-  font-size: 140px;
+  left: 70px;
+  font-size: 120px;
+  
+  
 }
 .temp-detais {
   font-size: 20px;
